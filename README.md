@@ -37,7 +37,7 @@ pip3 install seaborn
 ```
 
 
-## Tests
+## Code Example
 **1. Importing the training dataset**
 ```python
 ###Import the training data from file
@@ -76,12 +76,19 @@ np.mean(predicted == labels)
 
 Output: 0.8325
 ```
-## Tests
+## Results
 
 
+## Conclusions
 
 ## Credits
 * [Twitter sentiment classification using distant supervision](https://www-cs.stanford.edu/people/alecmgo/papers/TwitterDistantSupervision09.pdf)
 * [Target-dependent  twitter  senti-ment classification](https://www.aclweb.org/anthology/P11-1016)
 * [Baselines and Bigrams: Simple, Good Sentiment and Topic Classification](https://www.aclweb.org/anthology/P12-2018)
 * [Scikit-learn](https://github.com/scikit-learn/scikit-learn)
+
+## Contacts
+* Carlos Abril
+* G**iu**seppe Marinelli
+
+
