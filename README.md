@@ -3,6 +3,8 @@ Internet users often debate on why their preferred social media stands out from 
 
 The main focus here is to be able to train a model on a Twitter data set, and predict the level of positivity for a set of data from Reddit. As a result, the best social media between these two will be decided.
 
+The resultant models will vary in their classifying approaches to see how differently they perform. Comments from Twitter will be gathered from an existing data set to train these models. Moreover, to obtain a better insight on the performance of the models, size of the training set will be modified.
+
 # Features
 * Two different type of classifiers : SVM and Multinomial Naive Bayes
 
