@@ -16,7 +16,7 @@ The resultant models will vary in their classifying approaches to see how differ
 ## Tech/framework used
 * [Jupiter Notebook](https://jupyter.org)
 * [Python](https://www.python.org)
-
+* [Google Colab](https://colab.research.google.com)
 
 ## Installation
 ### Run the Jupiter Notebooks
@@ -78,5 +78,8 @@ Output: 0.8325
 ```
 
 ## Credits
-
+* [Twitter sentiment classification using distant supervision](https://www-cs.stanford.edu/people/alecmgo/papers/TwitterDistantSupervision09.pdf)
+* [Target-dependent  twitter  senti-ment classification](https://www.aclweb.org/anthology/P11-1016)
+* [Baselines and Bigrams: Simple, Good Sentiment and Topic Classification](https://www.aclweb.org/anthology/P12-2018)
+* [Scikit-learn](https://github.com/scikit-learn/scikit-learn)
 
