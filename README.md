@@ -38,18 +38,18 @@ pip3 install seaborn
 
 
 ## Tests
-1. Importing the dataset into the 
+1. **Importing the dataset into the**
 ```python
 ###Import the training data from file
 df_train = pd.read_csv('TrainingTwitterFinal20K.csv')
 df_train.dropna(axis=0, inplace=True)
 ```
-2. Cleaning the sentences
+2. **Cleaning the sentences**
 ```python
 ###Apply clean to the train data
 df_train['comment'] = df_train['comment'].apply(clean)
 ```
-3. Transforming the sentences in Word2Vec or BOW model
+3. **Transforming the sentences in Word2Vec or BOW model**
 ```python
 vectorizer = CountVectorizer()
 sentenceVectors = vectorizer.fit_transform(allSentences)
@@ -57,17 +57,17 @@ sentenceVectors = vectorizer.fit_transform(allSentences)
 tfidf = TfidfTransformer()
 train = tfidf.fit_transform(sentenceVectors)
 ```
-4. Build the classifier
+4. **Build the classifier**
 ```python
 ###create a Multinomial Naive Bayes Classifier, input array for X values and labels s
 clf = MultinomialNB().fit(train, labels)
 ```
-5. Import the test dataset
+5. **Import the test dataset**
 ```python
 ###Retrieving the test data
 df_test = pd.read_csv('400PosTestReddit.csv')
 ```
-6. Predict the labels of the test data with the classifier
+6. **Predict the labels of the test data with the classifier**
 ```python
 ###calculate accuracy of the classifier
 predicted = clf.predict(sentenceVectors2)
