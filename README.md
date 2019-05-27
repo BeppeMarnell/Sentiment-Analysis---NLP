@@ -5,13 +5,17 @@ The main focus here is to be able to train a model on a Twitter data set, and pr
 
 The resultant models will vary in their classifying approaches to see how differently they perform. Comments from Twitter will be gathered from an existing data set to train these models. Moreover, to obtain a better insight on the performance of the models, size of the training set will be modified.
 
+
 ## Features
 * Sentiment Analysis of Twitter and Reddit datasets
 * Two different type of classifiers : SVM and Multinomial Naive Bayes
 * Stemming and Lemmatisation
 
+
 ## Tech/framework used
 * [Jupiter Notebook](https://jupyter.org)
+* [Python](https://www.python.org)
+
 
 ## Installation
 ### Run the Jupiter Notebooks
@@ -30,6 +34,8 @@ pip3 install pandas
 pip3 install gensim
 pip3 install seaborn
 ```
+
+
 ## Tests
 
 
