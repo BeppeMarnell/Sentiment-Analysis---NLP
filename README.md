@@ -1,7 +1,7 @@
 # Positivity and social media
 Internet users often debate on why their preferred social media stands out from the rest. Objectively speaking, a good way of determining the best one is  through  the  procedure  of  sentiment  analysis. This process consists of measuring the degree of positivity of a given set of comments.
 
-The main focus here is to be able to train a model on a Twitter data set, and predict the level of positivity for a set of data from Reddit. As a result, the best social media between these two will be decided.
+The main focus here is to be able to train a model on a Twitter data set, and predict the level of positivity for a set of data from Reddit. As a result, the best positive social media between these two will be decided.
 
 The resultant models will vary in their classifying approaches to see how differently they perform. Comments from Twitter will be gathered from an existing data set to train these models. Moreover, to obtain a better insight on the performance of the models, size of the training set will be modified.
 
@@ -76,10 +76,12 @@ np.mean(predicted == labels)
 
 Output: 0.8325
 ```
+## Tests
+
+
 
 ## Credits
 * [Twitter sentiment classification using distant supervision](https://www-cs.stanford.edu/people/alecmgo/papers/TwitterDistantSupervision09.pdf)
 * [Target-dependent  twitter  senti-ment classification](https://www.aclweb.org/anthology/P11-1016)
 * [Baselines and Bigrams: Simple, Good Sentiment and Topic Classification](https://www.aclweb.org/anthology/P12-2018)
 * [Scikit-learn](https://github.com/scikit-learn/scikit-learn)
-
