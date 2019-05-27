@@ -7,7 +7,7 @@ The main focus here is to be able to train a model on a Twitter data set, and pr
 * Two different type of classifiers : SVM and Multinomial Naive Bayes
 
 ## Tech/framework used
-* 
+* [Python notebook - Jupiter framework](https://jupyter.org)
 
 
 ## Installation
