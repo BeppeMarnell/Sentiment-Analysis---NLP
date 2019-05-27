@@ -9,7 +9,23 @@ The main focus here is to be able to train a model on a Twitter data set, and pr
 ## Tech/framework used
 * [Python notebook - Jupiter framework](https://jupyter.org)
 
-
 ## Installation
-ipython nbconvert --to python <YourNotebook>.ipynb
-sudo pip install mistune
+### Run the Jupiter Notebooks
+Run the following code in the console
+```
+ipython nbconvert --to python <NotebookName>.ipynb
+```
+or download the repository and run it in local.
+
+### The following libraries are needed to run the jupiter notebooks.
+
+```
+pip3 install nltk
+pip3 install pandas
+pip3 install gensim
+pip3 install seaborn
+```
+
+
+
+
