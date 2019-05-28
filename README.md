@@ -100,7 +100,13 @@ Tests were carried out for both models with vary-ing sizes in the training data.
 | 50000             | 0.5125   |
 | 100000            | 0.5100   |
 
-* **Naive Bayes accuracy** 
+**Naive Bayes accuracy** 
+
+| Training set size | Accuracy |
+|-------------------:|:----------:|
+| 20000             | 0.7125   |
+| 50000             | 0.6500   |
+| 100000            | 0.6275   |
 
 ## Conclusions
 
