@@ -5,6 +5,19 @@ The main focus here is to be able to train a model on a Twitter data set, and pr
 
 The resultant models will vary in their classifying approaches to see how differently they perform. Comments from Twitter will be gathered from an existing data set to train these models. Moreover, to obtain a better insight on the performance of the models, size of the training set will be modified.
 
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [Features](#Features)
+* [Tech/framework used](#Tech/framework-used)
+* [Installation](#Installation)
+  * [Run the Jupiter Notebooks](#Run-the-Jupiter-Notebooks)
+  * [The following libraries are needed to run the jupiter notebooks](#The-following-libraries-are-needed-to-run-the-jupiter-notebooks)
+* [Code Example](#Code-Example)
+* [Results](#Results)
+* [Conclusions](#Conclusions)
+* [Credits](#Credits)
+* [Contacts](#contacts)
 
 ## Features
 * Sentiment Analysis of Twitter and Reddit datasets
@@ -27,7 +40,7 @@ ipython nbconvert --to python <NotebookName>.ipynb
 ```
 or download the repository and run it in local.
 
-### The following libraries are needed to run the jupiter notebooks.
+### The following libraries are needed to run the jupiter notebooks
 
 ```
 pip3 install nltk
