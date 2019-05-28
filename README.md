@@ -92,7 +92,8 @@ Output: 0.8325
 ## Results
 Tests were carried out for both models with vary-ing sizes in the training data. 
 
-* **SVM accuracy** 
+**SVM accuracy** 
+
 | Training set size | Accuracy |
 |-------------------:|:----------:|
 | 20000             | 0.5625   |
