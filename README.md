@@ -90,7 +90,16 @@ np.mean(predicted == labels)
 Output: 0.8325
 ```
 ## Results
+Tests were carried out for both models with vary-ing sizes in the training data. 
 
+* **SVM accuracy** 
+| Training set size | Accuracy |
+|-------------------|----------|
+| 20000             | 0.5625   |
+| 50000             | 0.5125   |
+| 100000            | 0.5100   |
+
+* **Naive Bayes accuracy** 
 
 ## Conclusions
 
