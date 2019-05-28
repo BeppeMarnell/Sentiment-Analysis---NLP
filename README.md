@@ -12,7 +12,7 @@ The resultant models will vary in their classifying approaches to see how differ
 * [Tech/framework used](#Tech/framework-used)
 * [Installation](#Installation)
   * [Run the Jupiter Notebooks](#Run-the-Jupiter-Notebooks)
-  * [The following libraries are needed to run the jupiter notebooks](#The-following-libraries-are-needed-to-run-the-jupiter-notebooks)
+  * [Libraries needed](#Libraries-needed)
 * [Code Example](#Code-Example)
 * [Results](#Results)
 * [Conclusions](#Conclusions)
@@ -40,7 +40,7 @@ ipython nbconvert --to python <NotebookName>.ipynb
 ```
 or download the repository and run it in local.
 
-### The following libraries are needed to run the jupiter notebooks
+### Libraries needed
 
 ```
 pip3 install nltk
