@@ -111,10 +111,12 @@ Tests were carried out for both models with varying sizes in the training data.
 
 #### Multinomial Naive Bayes
 ![](src/20k.png)
+<br/>
 Heatmap representing coefficient matrix of the model’s performance when the training set is of size 20000
 
 #### SVM
 ![](src/20KSVM.png)
+<br/>
 Heatmap representing coefficient matrix of the model’s performance when the training set is of size 20000
 
 ## Conclusions
