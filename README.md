@@ -90,7 +90,7 @@ np.mean(predicted == labels)
 Output: 0.8325
 ```
 ## Results
-Tests were carried out for both models with vary-ing sizes in the training data. 
+Tests were carried out for both models with varying sizes in the training data. 
 
 **SVM accuracy** 
 
@@ -108,7 +108,15 @@ Tests were carried out for both models with vary-ing sizes in the training data.
 | 50000             | 0.6500   |
 | 100000            | 0.6275   |
 
+
+
 ## Conclusions
+
+It is observable from the SVM tests that all accuracy, precision and recall are inversely proportional to the size of the training data. The reason behind this could be due to the fact that training data is exclusively done on Twitter comments. The more comments are trained, the higher the difference in word vectors with respect the test data. This suggests that Reddit comments are very different from the Twitter ones, and therefore these parameter significantly decrease.
+
+Based on section Multinomial Naive Bayes, accuracy, precision and recall are inversely proportional to the size of the training set. 
+Moreover, it can be concluded that the Naive Bayes model performs significantly better than the SVM model. This is because Multinomial performs better with short comments.
+It is observable that for both true labels and predicted labels, Reddit is a more negative social media compared to Twitter. Therefore it can be concluded that Twitter is the best choice for a social media.
 
 ## Credits
 * [Twitter sentiment classification using distant supervision](https://www-cs.stanford.edu/people/alecmgo/papers/TwitterDistantSupervision09.pdf)
